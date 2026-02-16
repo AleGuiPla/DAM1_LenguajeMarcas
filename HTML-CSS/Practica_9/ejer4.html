@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form * {
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table border="1">
+            <tr style="text-align: center;">
+                <td style="background-color: lightskyblue;">
+                    <p>Name</p>
+                </td>
+
+                <td style="background-color: lightskyblue;">
+                    <p>Value</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Name</p>
+                </td>
+
+                <td><input type="text" id="camponombre" name="nombre"></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Sex</p>
+                </td>
+                <td><input type="radio" id="masculino" name="sexo" value="masculino">
+                    <label for="masculino">Male</label>
+                    <br>
+                    <input type="radio" id="femenino" name="sexo" value="femenino">
+                    <label for="femenino">Female</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>
+                        Eye color
+                    </p>
+                </td>
+
+                <td>
+                    <select name="colorojos" id="seleccolorojos">
+                        <option value="verde">Green</option>
+                        <option value="azul">Blue</option>
+                        <option value="marron">Brown</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Check all that apply</p>
+                </td>
+                <td>
+                    <input type="checkbox" name="misccheck" id="checkaltura" value="masde6pies">
+                    <label for="checkaltura">Over 6 feet tall</label>
+                    <br>
+                    <input type="checkbox" name="misccheck" id="checkpeso" value="masde200libras">
+                    <label for="checkpeso">Over 200 pounds</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <label for="areadescatletica">Descrive your athletic ability:</label>
+                    <br>
+                    <textarea name="decatletica" id="areadescatletica" cols="40" rows="5"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input type="submit" value="Enter my information">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
