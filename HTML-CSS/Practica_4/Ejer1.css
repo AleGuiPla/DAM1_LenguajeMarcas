@@ -1,0 +1,24 @@
+body {
+    background-color: khaki;
+}
+
+h1 {
+    text-align: center;
+    background-color: darkorange;
+}
+
+div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 10%;
+}
+
+p {
+    margin: 0px;
+    width: 90%;
+    font-size: 1.5vw;
+    text-align: justify;
+}

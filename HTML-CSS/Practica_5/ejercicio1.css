@@ -1,0 +1,34 @@
+div {
+    border: 1px solid black;
+}
+
+.caja_princ {
+    display: flex;
+    
+    height: 300px;
+    width: 100%;
+
+    background-color: orange;
+    
+}
+
+#apartado_a {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#apartado_b {
+    justify-content: space-between;
+}
+
+#apartado_c {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.caja_secun {
+    width: 100px;
+    height: 100px;
+
+    background-color: green;
+}

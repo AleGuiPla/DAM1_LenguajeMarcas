@@ -1,0 +1,39 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 100%;
+    border-top: 6px solid rgb(118, 184, 79);
+    border-bottom: 6px solid rgb(118, 184, 79);
+}
+
+h2 {
+    text-align: center;
+}
+
+.titulosecun,
+p,
+ul {
+    margin-left: 40px;
+}
+
+.tituloprim {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.titulosecun {
+    text-align: left;
+    color: rgb(144, 207, 107);
+}
+
+ul {
+    padding-bottom: 25px;
+}
+
+#lista2 li {
+    padding-bottom: 40px;
+}
+

@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+}
+
+div {
+    display: flex;
+    width: 100%; height: 100vh;
+}
+
+#Zona1 {
+    background-color: red;
+}
+
+#Zona2 {
+    background-color: purple;
+}
+
+#Zona3 {
+    background-color: green;
+}
+
+#Zona4 {
+    background-color: yellow;
+}

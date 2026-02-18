@@ -1,0 +1,19 @@
+#titulo_tabla {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+#cabecera_tabla {
+    background-color: darkgray;
+}
+
+.elemento_tabla {
+    background-color: lightgray;
+    text-align: center;
+}
+
+#aviso {
+    text-align: center;
+    background-color: red;
+}

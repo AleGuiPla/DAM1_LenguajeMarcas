@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+}
+
+p {
+    font-size: 3vw;
+}
+
+#contenedor_1 {
+    width: 100%;
+    height: 30%;
+    background-color: greenyellow;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contenedor_1 div {
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    
+}
+
+#contenedor_2 {
+    width: 100%;
+    height: 70%;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contenedor_2 div {
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 90%;
+    margin: 5%;
+    
+}

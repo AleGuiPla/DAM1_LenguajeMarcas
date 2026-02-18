@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    
+}
+
+table {
+    border: 2px solid black;
+}
+
+#cabecera_tabla {
+    background-color: green;
+}
+
+#titulo_tabla {
+    background-color: peachpuff;
+}
+
+#subtitulo_tabla {
+    background-color: lightgoldenrodyellow;
+}

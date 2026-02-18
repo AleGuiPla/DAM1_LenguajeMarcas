@@ -1,0 +1,32 @@
+body {
+    background-color: lightgrey;
+}
+
+h2 {
+    background-color: royalblue;
+    color: white;
+}
+
+sub {
+    color: turquoise;
+}
+
+sup {
+    color: lightgray;
+}
+
+h4 {
+    color: blue;
+}
+
+ul {
+    background-color: rgb(163, 150, 236);
+}
+
+#elem1 {
+    color: magenta;
+}
+
+#elem2 {
+    color: darkcyan;
+}

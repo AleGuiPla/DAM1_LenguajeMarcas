@@ -1,0 +1,23 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+h2 {
+    background-color: lightgreen;
+}
+
+.primerapeli {
+    color: red;
+}
+
+.segundapeli {
+    color: green;
+}
+
+.tercerapeli {
+    color: blue;
+}
+
+img {
+    height: 200px;
+}
