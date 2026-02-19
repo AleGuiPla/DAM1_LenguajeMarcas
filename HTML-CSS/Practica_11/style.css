@@ -172,3 +172,19 @@ article figcaption {
     color: white;
     font-size: 0.8rem;
 }
+
+/* Footer */
+footer {
+    height: 5%;
+    background-color: black;
+}
+
+footer>nav {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 0.8rem;
+}
