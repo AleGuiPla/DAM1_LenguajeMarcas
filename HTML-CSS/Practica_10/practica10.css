@@ -1,39 +1,104 @@
-#cont1 {
+body {
+    height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(182, 182, 182);
+    font-size: 2vw;
+}
+
+a:hover {
+    color: white;
+    font-size: 2.2vw;
+}
+
+div {
+    display: flex;
+}
+
+video {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#TITLE {
+    background-color: lightblue;
     width: 100%;
     height: 10%;
+    align-items: center;
 }
 
-#cont2 {
-    width: 100%;
-    height: 5%;
-}
-
-#cont3 {
-    width: 100%;
-    height: 25%;
-}
-
-#cont4 {
-    width: 100%;
-    height: 5%;
-}
-
-#cont5 {
-    width: 100%;
-    height: 25%;
-}
-
-#cont6 {
-    width: 100%;
-    height: 5%;
-}
-
-#cont7 {
-    width: 100%;
-    height: 25%;
-}
-
-#titulopagina {
+#titlePar {
+    text-align: center;
     width: 100%;
     font-size: 3vw;
+}
+
+.movieTitle {
+    width: 100%;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.movieInfo {
+    width: 100%;
+    height: 25%;
+}
+
+.movieSinopsis {
+    width: 40%;
+    height: 100%;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 1vw;
+    color: white;
+}
+
+.movieName {
+    text-align: center;
+}
+
+#LCDA_Title {
+    background-color: darkred;
+}
+
+#LCDA_Title:hover {
+    background-color: red;
+}
+
+#LCDA_Info {
+    background-color: red;
+}
+
+#LDT_Title {
+    background-color: darkcyan;
+}
+
+#LDT_Title:hover {
+    background-color: blue;
+}
+
+#LDT_Info {
+    background-color: blue;
+}
+
+#ERDR_Title {
+    background-color: darkgreen;
+}
+
+#ERDR_Title:hover {
+    background-color: green;
+}
+
+#ERDR_Info {
+ background-color: green;
 }
