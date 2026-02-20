@@ -1,0 +1,190 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+
+    font-size: 6vmax;
+    letter-spacing: 5vmin;
+
+    text-decoration: underline 0.1rem yellow;
+}
+
+h2 {
+    color: red;
+    background-color: black;
+
+    border: 0.15rem solid red;
+    border-radius: 1rem;
+
+    font-size: 2vmax;
+    letter-spacing: 1.5rem;
+}
+
+h3 {
+    color: yellow;
+    font-size: 2rem;
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    height: 20%;
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    width: 10%;
+}
+
+header img {
+    width: 100%;
+    object-fit: cover;
+}
+
+header h1 {
+    width: 90%;
+}
+
+/* Main div */
+#main-section {
+    width: 100%;
+    height: 75%;
+
+    display: flex;
+    align-items: center;
+}
+
+/* nav */
+#navbar {
+    width: 10%;
+    height: 100%;
+
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar>ul {
+    height: 50%;
+    margin-left: 20%;
+    font-weight: bold;
+    color: red;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#navbar>ul>li {
+    font-size: 1.5vmax;
+}
+
+/* main */
+main {
+    width: 90%;
+    height: 100%;
+
+    background-image: url('../img/fondo.jpeg');
+    background-size: cover;
+}
+
+#articulos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sinopsis {
+    width: 98%;
+    margin-bottom: 5%;
+}
+
+#articulos>div {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#articulos img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+#articulos video {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+#articulos>div article {
+    width: 45%;
+    height: 100%;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 5%;
+
+    background-color: black;
+    border-top: 0.2rem solid yellow;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    font-weight: bold;
+    list-style: none;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

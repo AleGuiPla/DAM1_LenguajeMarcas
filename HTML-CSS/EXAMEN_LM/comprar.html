@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurassic Park Web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/comprar.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="Logo Jurassic Park"></a>
+        <h1>JURASSIC PARK</h1>
+    </header>
+
+    <div id="main-section">
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Película</a></li>
+                <li><a href="#">Libro</a></li>
+                <li><a href="#">Premios</a></li>
+                <li><a href="#">Comprar</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>FORMULARIO DE COMPRA</h2>
+            <section id="formulario-compra">
+                <form>
+                    <p id="inicio-formulario"><a href="#final-formulario">Ir al final</a></p>
+                    <table>
+                        <tr>
+                            <td colspan="2">
+                                <p class="titulo-seccion">Datos personales</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="campo-nom-ape">
+                                    <p>Nombre y apellidos</p>
+                                </label>
+                                <input type="text" name="nombre-apellidos" id="campo-nom-ape"
+                                    placeholder="Tu nombre y apellidos..." size="60">
+                                <br>
+                                <br>
+                                <label for="campo-correo">
+                                    <p>Correo electrónico</p>
+                                </label>
+                                <input type="text" name="correo" id="campo-nom-ape"
+                                    placeholder="Tu correo electrónico..." size="60">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <br>
+                                <p class="titulo-seccion">Tu pedido</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="checkbox" name="pelicula" id="checkbox-pelicula" value="comprar-pelicula">
+                                <label for="checkbox-pelicula">Película</label>
+                                <br>
+                                <input type="checkbox" name="libro" id="checkbox-libro" value="comprar-libro">
+                                <label for="checkbox-libro">Libro</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <br>
+                                <p class="titulo-seccion">Dirección de entrega</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="campo-direccion">Dirección:</label>
+                            </td>
+
+                            <td>
+                                <input type="text" name="nombre-apellidos" id="campo-nom-ape"
+                                    placeholder="Tu dirección..." size="30">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="seleccion-provincia">Provincia:</label>
+                            </td>
+
+                            <td>
+                                <select name="provincia" id="seleccion-provincia">
+                                    <option value="">- Escoge -</option>
+                                    <option value="madrid">Madrid</option>
+                                    <option value="barcelona">Barcelona</option>
+                                    <option value="andalucia">Andalucía</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="radio-entrega">Provincia:</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="tipo-entrega" id="radio-entrega" value="entrega-normal">
+                                <label for="radio-entrega">Normal</label>
+
+                                <input type="radio" name="tipo-entrega" id="radio-entrega" value="entega-express">
+                                <label for="radio-entrega">Express</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="texto-comentarios">Comentarios:</label>
+                                <br>
+                                <br>
+                            </td>
+
+                            <td>
+                                <textarea name="comentarios" id="texto-comentarios" cols="47" rows="5"></textarea>
+                                <br>
+                                <br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <br>
+                                <p class="titulo-seccion">Pago</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="campo-titular">Titular</label>
+                                <input type="text" name="titular-pago" id="campo-titular" size="60">
+                                <br>
+                                <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="seleccion-tarjeta">Tipo de tarjeta</label>
+                                <br>
+                                <select name="tarjeta-pago" id="seleccion-tarjeta">
+                                    <option value="">- Escoge -</option>
+                                    <option value="visa">Visa</option>
+                                    <option value="mastercard">Mastercard</option>
+                                    <option value="americanexpress">American Express</option>
+                                </select>
+                                <br>
+                                <br>
+                            </td>
+
+                            <td>
+                                <label for="campo-cvv">CVV</label>
+                                <br>
+                                <input type="text" name="cvv-pago" id="campo-cvv" size="10">
+                                <br>
+                                <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="campo-numero-tarjeta">Número de tarjeta</label>
+                                <input type="text" name="numero-tarjeta-pago" id="campo-numero-tarjeta" size="60">
+                                <br>
+                                <br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="caducidad-tarjeta">Caducidad:</label>
+                                <input type="date" name="caducidad-tarjeta-pago" id="caducidad-tarjeta">
+                                <br>
+                                <br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <p class="titulo-seccion">Confirmación</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <button type="reset">Borrar campos</button>
+                            </td>
+
+                            <td align="center">
+                                <button type="submit">Hacer pedido</button>
+                            </td>
+                        </tr>
+
+                    </table>
+
+                    <p id="final-formulario"><a href="#inicio-formulario">Ir al inicio</a></p>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Aviso legal</a>
+                </li>
+                &nbsp;|&nbsp;
+                <li>
+                    <a href="#">Política de privacidad</a>
+                </li>
+                &nbsp;|&nbsp;
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
