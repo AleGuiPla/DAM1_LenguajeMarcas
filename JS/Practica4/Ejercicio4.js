@@ -7,7 +7,7 @@ if (nota < 5) {
     calificacion = "suspenso";
 } else if (nota < 6) {
     calificacion = "aprobado";
-}  else if (nota < 7) {
+} else if (nota < 7) {
     calificacion = "bien";
 } else if (nota < 9) {
     calificacion = "notable";
