@@ -17,4 +17,4 @@ if (nota < 5) {
     calificacion = "matricula de honor";
 }
 
-console.log("Tu calificacion se corresponde con un", calificacion);
+console.log("Tu calificacion se corresponde con", calificacion);
