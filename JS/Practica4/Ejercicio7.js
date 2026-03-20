@@ -1,4 +1,6 @@
 const prompt = require('prompt-sync')();
+const DIAS_MESES = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
 
 let year = parseInt(prompt("Introduce tu año de nacimiento: "));
 let month = prompt("Introduce tu mes de nacimiento (Nombre): ");
@@ -31,6 +33,15 @@ if (month.toLowerCase()  == "enero") {
 } else {
     console.log("ERROR");
     month = 0;
+}
+
+if (month = 1 && day == 29) {
+    if(!((Y % 4 == 0 && Y % 100 != 0) || (Y % 400 == 0))) {
+        console.log("ERROR");
+    }
+} else if(day > DIAS_MESES[month] || day < 1) {
+    console.log("ERROR");
+    day = 1;
 }
 
 let fecha = new Date(year, month, day);
